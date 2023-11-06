@@ -79,6 +79,6 @@ app.register_blueprint(accountSettingsBlueprint)
 app.register_blueprint(adminPanelCommentsBlueprint)
 app.register_blueprint(changeProfilePictureBlueprint)
 
-match __name__:
-    case "__main__":
-        app.run(debug=True)
+#match __name__:
+ #   case "__main__":
+  #      app.run(debug=True)
