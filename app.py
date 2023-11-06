@@ -81,4 +81,4 @@ app.register_blueprint(changeProfilePictureBlueprint)
 
 match __name__:
     case "__main__":
-        app.run(debug=True, port=2222 ,host=socket.gethostbyname(socket.gethostname()))
+        app.run(debug=True)
